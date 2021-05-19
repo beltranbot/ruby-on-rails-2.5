@@ -37,5 +37,5 @@ Create the database if it doesn't exists
     
 After the db folder is created, give full access to this folder
     
-    sudo chmod -r 777 db
+    sudo chmod -r 777 ./tmp/db
 
