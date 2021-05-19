@@ -34,3 +34,8 @@ test:
 Create the database if it doesn't exists
 
     rake db:create
+    
+After the db folder is created, give full access to this folder
+    
+    sudo chmod -r 777 db
+
