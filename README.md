@@ -30,3 +30,7 @@ test:
   <<: *default
   database: myapp_test
 ```
+
+Create the database if it doesn't exists
+
+    rake db:create
